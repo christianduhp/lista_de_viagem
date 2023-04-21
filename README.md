@@ -22,7 +22,7 @@ Em resumo, o site é uma aplicação que permite adicionar, atualizar e excluir 
 | -------------  | --- |
 | :sparkles: Nome        | **Lista de viagem**
 | :label: Tecnologias | HTML, CSS, JS
-| 🚀 URL | <a href="https://christianduhp.github.io/lista_de_viagem/">Site Lista de Viagem</a> 
+| :rocket: URL | <a href="https://christianduhp.github.io/lista_de_viagem/">Site Lista de Viagem</a> 
 
 ![image](https://user-images.githubusercontent.com/85292359/233736878-0e1d76f5-8dc0-4b16-afbd-a4267fc594e4.png)
 
