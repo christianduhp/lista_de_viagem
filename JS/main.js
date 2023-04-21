@@ -22,7 +22,7 @@ form.addEventListener("submit", (event) => {
         'quantidade': quantidade.value
     }
 
-    if (itemAtual.nome.trim() !== '') {
+    if (itemAtual.nome.trim() !== '' && itemAtual.quantidade > 0) {
         if (existe) {
             itemAtual.id = existe.id
             atualizaElemento(itemAtual)
@@ -34,7 +34,7 @@ form.addEventListener("submit", (event) => {
             itens.push(itemAtual)
         }
     } else {
-        alert('O nome não pode ser vazio');
+        alert('O nome não pode ser vazio e a quantidade deve ser maior que 0');
     }
 
     // storage new itens in web 

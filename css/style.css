@@ -141,3 +141,92 @@ html {
     font-weight: 400;
 }
 
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 1000px) {
+    /* Adicionar regras CSS para dispositivos móveis aqui */
+
+    html {
+        background: radial-gradient(farthest-corner at right top,  #21A09D, #06182D);
+        height: auto;
+        background-size: cover;
+    }
+    .conteudo {
+      padding: 2vh 1em 0; /* reduzir o preenchimento */
+      flex-direction: column; /* definir a direção do fluxo */
+      align-items: center; /* centralizar itens */
+      gap: 1em; /* reduzir o espaçamento */
+    }
+  
+    .principal {
+      min-width: unset; /* remover a largura mínima */
+      flex-direction: column; /* definir a direção do fluxo */
+      align-items: center; /* centralizar itens */
+
+    }
+    .mochila {
+        min-width: 120px;
+        max-width: 120px;
+        height: 130px;
+        padding-top: 50px;
+        background-color: #d84736;
+        box-shadow: inset 0 4px 0 1px #e64a3e, 0 -68px 0 -56px #3b1045, 0 -68px 0 -54px #d84736, 0 -68px 0 -51px #3b1045;
+        background-image: linear-gradient(to right, transparent 3px, transparent 12px, transparent 1px, transparent 15px, transparent 2em, transparent 12px, transparent 12px, transparent 52px, #c1382e 28px, #c1382e 138px, transparent 15px, transparent 115px);
+        background-position: center 185px;
+        background-size: 225px 4px;
+        background-repeat: repeat-x;
+        border: 3px solid #410c38;
+        border-radius: 40% 40% 20% 20%;
+        display: inline-block;
+        vertical-align: middle;
+        flex-basis: auto;
+        flex-grow: 1;
+
+        }
+        
+        .mochila:before,
+        .mochila:after {
+        display: inline-block;
+        content: '';
+        position: absolute;
+        }
+        
+        .mochila:before {
+        height: 50px;
+        width: 80px;
+        background-image: radial-gradient(circle closest-corner at 9px 20px, #af342c, #af342c 1px, transparent 1px, transparent), radial-gradient(circle closest-corner at 9px 20px, #491033, #491033 2px, transparent 2px, transparent), linear-gradient(to bottom, transparent 6px, transparent 10px, #491033 4px, #491033 12px, transparent 12px, transparent 67px), linear-gradient(to right, #af342c 6px, #af342c 6px, transparent 6px, transparent 10px, #af342c 6px, #af342c 25px), linear-gradient(to bottom, #af342c 5px, #af342c 10px, #491033 5px, #491033 20px, #af342c 13px, #af342c 47px, #af342c 8px, #af342c 38px, #af342c 4%);
+        margin-left: 18px;
+        margin-top: 38px;
+        border: 2px solid #491033;
+        border-radius: 8px;
+        box-shadow: 0 2px 0 0 #c1382e, inset 0px 2px 1px 0 #c03527;
+        content: '||';
+        color: transparent;
+        font-family: Comic Sans MS;
+        font-weight: bold;
+        z-index: 1;
+        text-shadow: rgb(0, 0, 0) -1px -42px 0px;
+        font-size: 10px;
+        }
+        
+        .mochila:after {
+        margin-left: 49px;
+        margin-top: -16px;
+        background: #cca16a;
+        width: 16px;
+        height: 16px;
+        border: 3px solid #491033;
+        border-radius: 3px;
+        transform: rotate(45deg);
+    }
+  
+    .adicionar input {
+      padding: 0.5em; /* reduzir o preenchimento */
+    }
+  
+    .item {
+      font-size: 16px; /* reduzir o tamanho da fonte */
+      padding: 0.6em 1em; /* reduzir o preenchimento */
+      gap: 0.5em; /* reduzir o espaçamento */
+    }
+  }
+  
